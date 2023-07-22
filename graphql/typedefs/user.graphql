@@ -8,3 +8,18 @@ type User {
     createdAt: DateTime! @timestamp(operations: [CREATE])
     updatedAt: DateTime @timestamp(operations: [UPDATE])
 }
+
+input CreateUserInput {
+    firstName: String
+    lastName: String
+    email: String!
+    password: String!
+    userRole: [String!]!
+}
+
+input UpdateUserInput {
+  _id: String!
+  firstName: String
+  lastName: String
+  password: String
+}
