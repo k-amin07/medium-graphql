@@ -1,0 +1,17 @@
+{
+    "development": {
+        "host": "neo4j://localhost:7687",
+        "username": "",
+        "password": ""
+    },
+    "testing": {
+        "host": "neo4j://localhost:7687",
+        "username": "",
+        "password": ""
+    },
+    "production": {
+        "host": "neo4j://localhost:7687",
+        "username": "",
+        "password": ""
+    }
+}

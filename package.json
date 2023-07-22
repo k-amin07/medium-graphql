@@ -1,0 +1,19 @@
+{
+  "name": "medium",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.8.1",
+    "@neo4j/graphql": "^3.24.0",
+    "@neo4j/graphql-ogm": "^3.24.0",
+    "graphql": "^16.7.1",
+    "graphql-ws": "^5.14.0",
+    "neo4j-driver": "^5.10.0",
+    "nodemon": "^3.0.1",
+    "ws": "^8.13.0"
+  }
+}

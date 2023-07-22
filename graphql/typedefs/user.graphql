@@ -1,0 +1,10 @@
+type User {
+    _id: ID @id
+    firstName: String
+    lastName: String
+    email: String!
+    password: String! @private
+    userRole: [Role!]! @relationship(type: "has_user_role", direction: IN)
+    createdAt: DateTime! @timestamp(operations: [CREATE])
+    updatedAt: DateTime @timestamp(operations: [UPDATE])
+}
